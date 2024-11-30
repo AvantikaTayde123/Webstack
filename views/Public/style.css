@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: brown !important; 
+    text-align: center;
+  }
+
+  h3 {
+    color: brown !important; 
+    text-align: left;
+    font-size: 1.2em; 
+  }
+

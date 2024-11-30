@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+   <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  padding: 20px;
+}
+
+.image-container img {
+  width: 30%; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.05); 
+}
+
+h3{
+ color: brown;
+ text-align: left;
+
+}
+
+  </style> 
+</head>
+<body>
+  <%- include('Nav') %>
+ 
+  <div class="about-section">
+    <h1 style="color:brown;">About Us</h1>
+    <p>We are passionate about helping you find your dream home. Meet our team and learn more about our journey.</p>
+
+
+    <div class="image-container">
+      <img src="image1.jpg">
+      <img src="image3.jpg">
+      <img src="image5.jpg">
+    </div>
+  </div>
+
+ <section>
+  <h3 style="color:green;">Who we are</h3>
+<p>&nbsp &nbsp Our journey began with a vision to revolutionize the real estate experience by making it simple, transparent, and customer-focused. At PropertyLink, we are more than just a real estate agency – we are your dedicated partners in finding the perfect home. With deep roots in the community and a passion for excellence, we strive to provide personalized solutions for every client, whether you’re buying, selling, or renting.</p>
+</section>
+
+<section>
+<h3 style="color:green;">Our Mission</h3>
+<p>Our mission is to connect people with their dream properties while delivering an unmatched level of service. We believe in fostering long-term relationships based on trust, integrity, and results. By leveraging the latest technology, market insights, and a team of experienced professionals, we ensure your real estate journey is smooth, efficient, and enjoyable.</p>
+</section>
+
+<section>
+<h3 style="color:green;">Why Choose Us</h3>
+ <p>Choosing PropertyLink means choosing a team that truly cares. Our commitment to you goes beyond transactions; we aim to provide a stress-free experience by guiding you through every step of the process. Whether you're a first-time homebuyer, a seasoned investor, or looking to sell, our expertise and local market knowledge ensure you get the best value and results.</p>
+</section>
+
+<section>
+ <h3 style="color:green;">Meet the TeamOur</h3>
+ <p> success is driven by a diverse team of professionals who bring passion, expertise, and a deep understanding of the real estate market. From experienced agents to customer service specialists, every member of our team is dedicated to providing exceptional service. Together, we are committed to turning your real estate goals into reality.</p>
+</section>
+
+<section>
+ <h3 style="color:green;">Our Values</h3>
+ <p>At the heart of everything we do are our core values: integrity, transparency, and client satisfaction. We pride ourselves on being open and honest, providing clear communication, and ensuring that our clients feel confident and informed throughout their real estate journey. Your trust is our greatest asset, and we work hard every day to earn it.</p>
+</section>
+<hr>
+ <h3 style="color:red;">Call to Action</h3>
+ <p>Ready to embark on your real estate journey with us? Contact PropertyLink today and let us help you find the perfect property or sell your current one. We’re here to make your real estate dreams a reality.</p>
+
+ <br>
+ <br>
+ <br>
+
+<%- include('Footer1') %>
+</body>
+</html>

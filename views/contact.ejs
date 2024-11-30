@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <%- include('Nav') %>
+  
+    <section>
+        <h3 style="color:brown;">Contact Us:</h3>
+        <form action="/submit-contact-form" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+    
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="phone">Your Phone (Optional):</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+    
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+    
+            <label for="inquiry-type">Inquiry Type:</label>
+            <select id="inquiry-type" name="inquiry-type">
+                <option value="buying">Buying a Home</option>
+                <option value="selling">Selling a Home</option>
+                <option value="general">General Inquiry</option>
+            </select><br><br>    
+            <button type="submit">Submit</button><br><br>
+        </form>
+    </section>
+    
+
+    <%- include('Footer1') %>
+</body>
+</html>
